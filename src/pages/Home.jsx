@@ -7,7 +7,7 @@ const Home = () => {
                 <div className="min-h-screen md:min-h-[350px] w-full container mx-auto flex flex-col justify-center gap-7">
                     <h1 className="text-[56px] font-[700] capitalize">Find your <span className="text-textBase">new job</span> today</h1>
                     <p className="text-[18px] text-[#000000B2] font-[400]">Thousands of jobs in the computer, engineering and technology sectors are waiting for you.</p>
-                    <div className="hidden md:flex join rounded-none">
+                    <div className="hidden lg:flex join rounded-none">
                         <div>
                             <div className="relative">
                                 <input
@@ -35,7 +35,7 @@ const Home = () => {
                         </div>
                         <button className="btn join-item px-7 py-1 bg-textBase hover:bg-textBase focus:bg-textBase text-white">Search</button>
                     </div>
-                    <div className='flex flex-col md:hidden gap-5'>
+                    <div className='flex flex-col lg:hidden gap-5'>
                         <div className="relative">
                             <input
                                 type="text"
